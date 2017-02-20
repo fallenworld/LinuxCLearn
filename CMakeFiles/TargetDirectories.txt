@@ -1,0 +1,6 @@
+/mnt/sda4/LinuxC/CMakeFiles/rebuild_cache.dir
+/mnt/sda4/LinuxC/CMakeFiles/edit_cache.dir
+/mnt/sda4/LinuxC/CMakeFiles/LinuxC.dir
+/mnt/sda4/LinuxC/debug/CMakeFiles/edit_cache.dir
+/mnt/sda4/LinuxC/debug/CMakeFiles/rebuild_cache.dir
+/mnt/sda4/LinuxC/debug/CMakeFiles/DebugFunctions.dir

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDebugFunctions.a  CMakeFiles/DebugFunctions.dir/debug.c.o
+/usr/bin/ranlib libDebugFunctions.a

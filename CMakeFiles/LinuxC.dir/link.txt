@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/LinuxC.dir/chapter4/tee.c.o  -o LinuxC -rdynamic debug/libDebugFunctions.a 

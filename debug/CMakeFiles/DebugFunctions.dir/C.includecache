@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/sda4/LinuxC/debug/debug.c
+stdarg.h
+-
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+unistd.h
+-
+string.h
+-
+debug.h
+/mnt/sda4/LinuxC/debug/debug.h
+ename.inc
+/mnt/sda4/LinuxC/debug/ename.inc
+
+/mnt/sda4/LinuxC/debug/debug.h
+
+/mnt/sda4/LinuxC/debug/ename.inc
+
