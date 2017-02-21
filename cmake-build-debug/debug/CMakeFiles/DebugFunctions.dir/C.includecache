@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fallenworld/dev/LinuxC/debug/debug.c
+stdarg.h
+-
+stdlib.h
+-
+stdio.h
+-
+errno.h
+-
+unistd.h
+-
+string.h
+-
+debug.h
+/home/fallenworld/dev/LinuxC/debug/debug.h
+ename.inc
+/home/fallenworld/dev/LinuxC/debug/ename.inc
+
+/home/fallenworld/dev/LinuxC/debug/debug.h
+
+/home/fallenworld/dev/LinuxC/debug/ename.inc
+

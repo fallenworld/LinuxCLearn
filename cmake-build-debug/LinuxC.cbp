@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LinuxC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fallenworld/dev/LinuxC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fallenworld/dev/LinuxC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fallenworld/dev/LinuxC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LinuxC">
+				<Option output="/home/fallenworld/dev/LinuxC/cmake-build-debug/LinuxC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fallenworld/dev/LinuxC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fallenworld/dev/LinuxC/debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 LinuxC"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LinuxC/fast">
+				<Option output="/home/fallenworld/dev/LinuxC/cmake-build-debug/LinuxC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fallenworld/dev/LinuxC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fallenworld/dev/LinuxC/debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 LinuxC/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DebugFunctions">
+				<Option output="/home/fallenworld/dev/LinuxC/cmake-build-debug/debug/libDebugFunctions.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fallenworld/dev/LinuxC/cmake-build-debug/debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fallenworld/dev/LinuxC/debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/debug/Makefile&quot;  VERBOSE=1 DebugFunctions"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DebugFunctions/fast">
+				<Option output="/home/fallenworld/dev/LinuxC/cmake-build-debug/debug/libDebugFunctions.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fallenworld/dev/LinuxC/cmake-build-debug/debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fallenworld/dev/LinuxC/debug"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/debug/Makefile&quot;  VERBOSE=1 DebugFunctions/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fallenworld/dev/LinuxC/cmake-build-debug/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fallenworld/dev/LinuxC/chapter5/dup.c">
+			<Option target="LinuxC"/>
+		</Unit>
+		<Unit filename="/home/fallenworld/dev/LinuxC/debug/debug.c">
+			<Option target="DebugFunctions"/>
+		</Unit>
+		<Unit filename="/home/fallenworld/dev/LinuxC/debug/debug.h">
+			<Option target="DebugFunctions"/>
+		</Unit>
+		<Unit filename="/home/fallenworld/dev/LinuxC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/fallenworld/dev/LinuxC/debug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

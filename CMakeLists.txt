@@ -1,11 +1,9 @@
+cmake_minimum_required(VERSION 3.6)
 project(LinuxC)
-cmake_minimum_required(VERSION 2.8)
 
-set(CMAKE_BUILD_TYPE "Debug")
-set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
-set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
+set(CMAKE_C_STANDARD 99)
 
-set(CHAPTER 4)
+set(CHAPTER 5)
 
 include_directories(debug)
 aux_source_directory(./chapter${CHAPTER} SRC_LIST)

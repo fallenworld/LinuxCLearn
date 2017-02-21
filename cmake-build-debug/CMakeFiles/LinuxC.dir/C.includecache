@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../debug/debug.h
+
+/home/fallenworld/dev/LinuxC/chapter5/test.c
+stdio.h
+-
+unistd.h
+-
+fcntl.h
+-
+errno.h
+-
+string.h
+-
+debug.h
+-
+

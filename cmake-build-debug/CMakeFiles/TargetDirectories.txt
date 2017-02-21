@@ -1,0 +1,6 @@
+/home/fallenworld/dev/LinuxC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fallenworld/dev/LinuxC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fallenworld/dev/LinuxC/cmake-build-debug/CMakeFiles/LinuxC.dir
+/home/fallenworld/dev/LinuxC/cmake-build-debug/debug/CMakeFiles/edit_cache.dir
+/home/fallenworld/dev/LinuxC/cmake-build-debug/debug/CMakeFiles/rebuild_cache.dir
+/home/fallenworld/dev/LinuxC/cmake-build-debug/debug/CMakeFiles/DebugFunctions.dir

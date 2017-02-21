@@ -29,18 +29,19 @@ int main(int argc, char* argv[])
     }
 
     //打开文件
-    int openFlags = O_WRONLY | O_CREAT;
+    int openFlags = O_WRONLY;
     if (isAppend)
     {
         openFlags |= O_APPEND;
     }
     else
     {
-        openFlags |= O_TRUNC;
+        openFlags |= O_TRUNC | O_CREAT;
     }
     int fd = open(argv[1], openFlags, S_IRUSR | S_IWUSR);
     if (fd == -1)
     {
+        close(fd);
         errExit("open");
     }
 
@@ -52,6 +53,7 @@ int main(int argc, char* argv[])
     {
         if (count == -1)
         {
+            close(fd);
             errExit("read");
         }
         write(STDOUT_FILENO, buffer, count);
